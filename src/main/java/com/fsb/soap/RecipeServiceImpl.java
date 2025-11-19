@@ -8,8 +8,6 @@ import java.util.List;
 public class RecipeServiceImpl implements RecipeService {
 
     private static List<Recipe> recipeList = new ArrayList<>();
-
-    // Pre-load some data so we can test immediately
     static {
         recipeList.add(new Recipe(1, "Couscous", "Semolina, Lamb, Veggies", "15 TND"));
         recipeList.add(new Recipe(2, "Lablabi", "Chickpeas, Bread, Egg", "4 TND"));
